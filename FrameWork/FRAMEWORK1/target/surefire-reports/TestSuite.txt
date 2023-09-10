@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 20.548 s <<< FAILURE! - in TestSuite
+testLogin(tests.LoginTest)  Time elapsed: 1.596 s  <<< FAILURE!
+java.lang.AssertionError: Sign Out not Present
+	at tests.LoginTest.testLogin(LoginTest.java:44)
+
+testLogin(tests.LoginTest)  Time elapsed: 0.85 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at tests.LoginTest.testLogin(LoginTest.java:38)
+
